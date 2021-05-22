@@ -1,0 +1,20 @@
+timestamp 형식 : 2019-11-12T16:34:30
+
+Database 설정 
+mariadb 설치
+
+CREATE TABLE posts (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    hashtag TEXT NULL,
+    content TEXT NULL,
+    location TEXT NULL,
+    date_time DATETIME NOT NULL,
+    picture_list TEXT NOT NULL
+)charset=utf8;
+
+private Long id;
+    private String hashtag;
+    private String content;
+    private String location;
+    private LocalDateTime date_time;
+    private String picture_list;
