@@ -10,7 +10,7 @@ CREATE TABLE posts (
     location TEXT NULL,
     date_time DATETIME NOT NULL,
     picture_list TEXT NOT NULL
-)charset=utf8;
+)charset=utf8mb4;
 
 private Long id;
     private String hashtag;
